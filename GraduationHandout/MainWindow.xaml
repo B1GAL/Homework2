@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Margin="0,10,0,0">
-        <Button x:Name="btnEnter" Content="Enter" HorizontalAlignment="Left" Height="41" Margin="298,383,0,0" VerticalAlignment="Top" Width="198" FontStyle="Oblique" FontWeight="Bold" FontSize="20" BorderThickness="3,3,3,3" Background="#FF048704" Foreground="#FFFDFCFC" BorderBrush="#FF040000"/>
+        <Button x:Name="btnEnter" Content="Enter" HorizontalAlignment="Left" Height="41" Margin="427,360,0,0" VerticalAlignment="Top" Width="198" FontStyle="Oblique" FontWeight="Bold" FontSize="20" BorderThickness="3,3,3,3" Background="#FF048704" Foreground="#FFFDFCFC" BorderBrush="#FF040000" Click="btnEnter_Click"/>
         <TextBlock HorizontalAlignment="Center" Height="44" Margin="125,10,0,0" Text="Graduation Handout! OU" TextWrapping="Wrap" VerticalAlignment="Top" Width="529" FontSize="36" TextTrimming="None" FontStyle="Italic" FontWeight="UltraBlack" Foreground="#FF991818"/>
         <Label Content="FirstName:" HorizontalAlignment="Left" Height="25" Margin="10,69,0,0" VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.512,0.078"/>
         <Label Content="LastName:" HorizontalAlignment="Left" Height="26" Margin="10,99,0,0" VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.498,0.551"/>
@@ -27,6 +27,18 @@
         <TextBox x:Name="txtCity" HorizontalAlignment="Left" Height="17" Margin="90,303,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="117"/>
         <TextBox x:Name="txtState" HorizontalAlignment="Left" Height="17" Margin="90,334,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="117"/>
         <TextBox x:Name="txtZip" HorizontalAlignment="Left" Height="17" Margin="90,372,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="117"/>
+        <ListBox x:Name="lstGrad" HorizontalAlignment="Left" Height="226" Margin="325,125,0,0" VerticalAlignment="Top" Width="402"/>
+        <TextBlock HorizontalAlignment="Left" Height="47" Margin="325,69,0,0" Text="There's Only One Oklahoma" TextWrapping="Wrap" VerticalAlignment="Top" Width="402" FontSize="30" FontWeight="DemiBold" FontStretch="Normal">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF991515" Offset="0.55"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+            <TextBlock.Effect>
+                <DropShadowEffect/>
+            </TextBlock.Effect>
+        </TextBlock>
 
     </Grid>
 </Window>

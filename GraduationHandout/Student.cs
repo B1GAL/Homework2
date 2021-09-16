@@ -63,7 +63,7 @@ namespace GraduationHandout
 
         public override string ToString()
         {
-            return $"{FirstName} ' ' {LastName}, {Major}, {GPA} ' ' {CalculateDistinction()} ";
+            return $"{FirstName} ' ' {LastName}, {Major}, {CalculateDistinction()} ";
         }
 
 

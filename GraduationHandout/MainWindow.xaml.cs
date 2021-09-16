@@ -24,5 +24,64 @@ namespace GraduationHandout
         {
             InitializeComponent();
         }
+
+        private void btnEnter_Click(object sender, RoutedEventArgs e)
+        {
+            bool infoCorrect = true;
+
+            if (string.IsNullOrWhiteSpace(txtState.Text) == true)
+            {
+                infoCorrect = false;
+                MessageBox.Show("Enter a real State");   //good
+            }
+
+            if (string.IsNullOrWhiteSpace(txtCity.Text) == true)
+            {
+                infoCorrect = false;
+                MessageBox.Show("Enter an actual City");//good
+            }
+
+            if (string.IsNullOrWhiteSpace(txtFname.Text) == true)
+            {
+                infoCorrect = false;
+                MessageBox.Show("Input valid first name");//good
+            }
+
+            if (string.IsNullOrWhiteSpace(txtLname.Text) == true)
+            {
+                infoCorrect = false;
+                MessageBox.Show("Enter real Lastname");//good
+            }
+            double gpa;
+            if (double.TryParse(txtGpa.Text, out gpa) == false)
+            {
+                infoCorrect = false;
+                MessageBox.Show("Please enter valid GPA number");//good?
+            }
+
+            if (string.IsNullOrWhiteSpace(txtMajor.Text) == true)
+            {
+                infoCorrect = false;
+                MessageBox.Show("Enter a valid major that OU offers");//good
+            }
+
+            if (string.IsNullOrWhiteSpace(txtSnumber.Text) == true)
+            {
+                infoCorrect = false;
+                MessageBox.Show("Enter a real street number");//good
+            }
+
+            if (string.IsNullOrWhiteSpace(txtSname.Text) == true)
+            {
+                infoCorrect = false;
+                MessageBox.Show("Enter a valid street name");//good
+            }
+
+            if (string.IsNullOrWhiteSpace(txtZip.Text) == true)
+            {
+                infoCorrect = false;
+                MessageBox.Show("Enter a real zipcode");//good
+            }
+        }
     }
 }
