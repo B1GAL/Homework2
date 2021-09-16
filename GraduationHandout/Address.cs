@@ -14,7 +14,24 @@ namespace GraduationHandout
 
         public Address()
         {
+            StreetNumber = 0;
+            StreetName = string.Empty;
+            State = string.Empty;
+            City = string.Empty;
+            ZipCode = 0;
 
+
+
+
+        }
+
+        public Address(int streetnumber, string streetname, string state, string city, int zipcode)
+        {
+            StreetNumber = streetnumber;
+            StreetName = streetname;
+            State = state;
+            City = city;
+            ZipCode = zipcode;
         }
 
 
