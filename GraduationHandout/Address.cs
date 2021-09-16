@@ -4,16 +4,19 @@ using System.Text;
 
 namespace GraduationHandout
 {
-    class Address
+    public class Address
     {
-        /*Public Class StreetNumber(int)
+        public int    StreetNumber { get; set; }
+        public string StreetName { get; set; }
+        public string State { get; set; }
+        public string City { get; set; }
+        public int    ZipCode { get; set; }
+
+        public Address()
         {
 
         }
-        Public Class StreetNumber()
-        Public Class StreetNumber()
-        Public Class StreetNumber()
-        Public Class StreetNumber()*/
+
 
 
 
