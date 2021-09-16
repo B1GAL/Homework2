@@ -49,17 +49,22 @@ namespace GraduationHandout
             }
             else
             {
-                distinction = "You have dishonored family";
+                distinction = "You have dishonored your family";
             }
             return distinction;
         }
 
         public void SetAddress(int streetnumber, string streetname, string state, string city, int zipcode)
         {
+            Address = new Address(streetnumber, streetname, state, city, zipcode);
+
             
         }
 
-
+        public override string ToString()
+        {
+            return $"{FirstName} ' ' {LastName}, {Major}, {GPA} ' ' {CalculateDistinction()} ";
+        }
 
 
 
