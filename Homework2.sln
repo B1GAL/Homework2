@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraduationHandout", "Gradua
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FulfillData", "FulfillData\FulfillData.csproj", "{9CFA326F-8C6F-4545-8E7B-26C2FFAB20E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRCreator", "WpfApp1\QRCreator.csproj", "{A94E083C-7EB7-494B-BC3B-B3B9936BE8A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9CFA326F-8C6F-4545-8E7B-26C2FFAB20E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CFA326F-8C6F-4545-8E7B-26C2FFAB20E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CFA326F-8C6F-4545-8E7B-26C2FFAB20E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94E083C-7EB7-494B-BC3B-B3B9936BE8A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94E083C-7EB7-494B-BC3B-B3B9936BE8A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94E083C-7EB7-494B-BC3B-B3B9936BE8A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94E083C-7EB7-494B-BC3B-B3B9936BE8A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
